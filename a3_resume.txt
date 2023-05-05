@@ -1,0 +1,5 @@
+{This is my Educational Qualifications.}
+{This is my skill set.}
+{This is my awards/recognition.}
+{This is my work experience.}
+{Here is a referee.}
