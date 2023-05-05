@@ -1,0 +1,19 @@
+body{
+    font-family: serif;
+    text-align: left;
+    line-height: 1.5;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+th, h1, div{
+    text-align: center;
+}
