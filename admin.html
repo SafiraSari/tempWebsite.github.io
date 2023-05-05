@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SOEN-287: A3 (admin)</title>
+    <link rel="stylesheet" href="a3.css">
+
+    <script 
+        src="a3.js" type="text/javascript">
+    </script>
+
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th><a href="index.php">HOME</a></th>
+            <th><a href="resume.php">RESUME</a></th>
+            <th><a href="projects.php">PROJECTS</a></th>
+            <th><a href="contact.html">CONTACT</a></th>
+            <th><a href="social.php">SOCIAL</a></th>
+            <th style="background-color: #C3C1AC;"><a href="admin.html">ADMIN</a></th>
+        </tr>
+        <tr>
+           <td colspan="6">
+                <h1>ADMIN</h1>
+                
+                <h3 style="text-align: center">LOG IN</h3>
+                
+                <div>
+                    <label>Username</label><br>
+                    <input type="text" id="username"><br><br>
+               
+                    <label>Password</label><br>
+                    <input type="password" maxlength="15" id="password"><br><br>
+                </div>
+
+                <p id="error" style="color:red"></p>
+
+                <div id="button">
+                    <input type="submit" value="Login" onclick="processLogin()">
+                </div>
+
+                
+
+                <br><br>
+               
+           </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
